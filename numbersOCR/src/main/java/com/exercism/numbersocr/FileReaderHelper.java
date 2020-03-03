@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class FileReaderHelper {
     private static final String FILE_NAME = "TestDataFile.txt";
-    private Scanner scanner;
+    private static Scanner scanner;
     private ArrayList<NumberSnapshot> numbersList = new ArrayList<NumberSnapshot>();
     private ArrayList<ArrayList<NumberSnapshot>> inputData = new ArrayList<ArrayList<NumberSnapshot>>();
 

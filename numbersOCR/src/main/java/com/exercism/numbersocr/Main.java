@@ -79,15 +79,6 @@ public class Main {
         fileReaderHelper.OpenFile();
         fileReaderHelper.ReadFile();
 //        fileReaderHelper.printArrayToRecognize();
-        NumberSnapshot   four = new NumberSnapshot(4);
-
-/*
-        for (int i = 0; i < fileReaderHelper.getSize(); i++) {
-            if(four.equals(fileReaderHelper.getElement(i))){
-                System.out.println("Element is equal to: \n" + four.toString());
-            }
-        }
-*/
 
         for (int n = 0; n < fileReaderHelper.getSize(); n++) {
             ArrayList<NumberSnapshot> numberSnapshots = fileReaderHelper.getRow(n);

@@ -56,6 +56,9 @@ public class NumberSnapshot {
             case "_":
                 elementValue = 1;
                 break;
+            default:
+                elementValue = -1;
+                break;
         }
         numberSnapshot[i][j] = elementValue;
     }
